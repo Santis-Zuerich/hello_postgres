@@ -10,7 +10,7 @@ services:
 
     webapp:
         build:
-            context: https://gitlab.santis-basis.ch/christian.nuttli/hello_postgres.git
+            context: https://github.com/Santis-Zuerich/hello_postgres.git
             dockerfile: ./Dockerfile
         image: hello_postgres
         restart: always
